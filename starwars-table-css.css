@@ -1,7 +1,7 @@
 .left_column {
 	background-color: green;
 	width: 50%;
-	float: left; 
+	float: left;
 }
 .left_column p {
 	text-align: center;
@@ -10,7 +10,7 @@
 .middle_column {
 	background-color: blue;
 	width: 50%;
-	float: center; 
+	float: center;
 }
 .middle_column p {
 	text-align: center;
@@ -19,7 +19,7 @@
 .right_column {
 	background-color: red;
 	width: 50%;
-	float: right; 
+	float: right;
 }
 .right_column p {
 	text-align: center;
@@ -44,7 +44,7 @@
 	padding:3px;
     border:1px solid #FFFFFF;
 	right: 80px;
-	
+
 }
 
 /*Star Wars Canon books - right centered*/
@@ -65,7 +65,7 @@ td {
     padding-top: 5em;
     padding-bottom: 5em;
 }
-.back_button_starwars {
+.back-button-starwars {
 	display: inline-block;
 	position: fixed;
 	bottom: 10px;
@@ -74,7 +74,7 @@ td {
 }
 
 /*Use this for positioning books?? */
-.back_button_starwars img{
+.back-button-starwars img{
 	width: 30px;
 	height: 60px;
 }
