@@ -1,0 +1,86 @@
+#nav {
+  position: absolute;
+  right: 0;
+  top: -15px;
+  height: 60px;
+  text-transform: uppercase;
+}
+#nav ul li {
+  float: left;
+  list-style: none;
+}
+#nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+body {
+  background-image: url("http://i.imgur.com/OlMv8t7.jpg");
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+ 
+}
+
+#section_title {
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+    margin: 0 auto;
+	text-align: center;
+}
+
+.question {
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 50px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1100px;
+  font-family: helvetica, sans-serif;
+}
+.content {
+  position: relative;
+  padding-top: 80px;
+}
+.content p {
+  margin-bottom: 10px;
+}
+#header {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #222;
+  color: white;
+}
+#header h1 {
+  top: 0px;
+  margin: 0px;
+  font-size: 1.75em;
+}
+#Heading {
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+.back_button {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
