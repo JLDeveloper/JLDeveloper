@@ -65,7 +65,7 @@ td {
     padding-top: 5em;
     padding-bottom: 5em;
 }
-.back-button-starwars {
+.back_button {
 	display: inline-block;
 	position: fixed;
 	bottom: 10px;
@@ -74,7 +74,7 @@ td {
 }
 
 /*Use this for positioning books?? */
-.back-button-starwars img{
+.back_button_starwars img{
 	width: 30px;
 	height: 60px;
 }
