@@ -36,14 +36,6 @@ body {
 	text-align: center;
 }
 
-.question {
-	color: white;
-	font-family: Georgia, serif;
-	font-size: 50px;
-	text-align: left;
-	font-weight: normal;
-}
-
 .container {
   position: relative;
   margin: 0 auto;
