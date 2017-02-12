@@ -2,9 +2,9 @@
 
 $(function(){ // DOM ready
 
-    $(".series_logo").fadeTo(0, 0.2); // initial opacity
+    $(".series-logo").fadeTo(0, 0.2); // initial opacity
 
-    $(".series_logo").hover(function( e ) {
+    $(".series-logo").hover(function( e ) {
        $(this).stop().fadeTo(300, e.type=="mouseenter"?1:0.2);
     });
 
