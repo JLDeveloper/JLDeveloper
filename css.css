@@ -16,7 +16,14 @@
   padding: 0 10px;
 }
 
-
+body {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
 
 #section_title {
 	color: white;
