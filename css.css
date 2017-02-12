@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-image: #000000 url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
   margin: 0;
   border: 0;
   font: inherit;
