@@ -58,7 +58,7 @@ body {
 .content p {
   margin-bottom: 10px;
 }
-#header {
+.header {
   z-index: 2;
   position: fixed;
   width: 100%;
@@ -67,7 +67,7 @@ body {
   background: #222;
   color: white;
 }
-#header h1 {
+.header h1 {
   top: 0px;
   margin: 0px;
   font-size: 1.75em;
