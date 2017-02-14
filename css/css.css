@@ -36,6 +36,15 @@
   vertical-align: baseline;
   font-weight: bold;
 }
+.page-mistborn {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
 #nav {
   position: absolute;
   right: 0;
