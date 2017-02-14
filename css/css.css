@@ -1,4 +1,33 @@
-body {
+.page-portfolio {
+  background-image: url("sample");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+.page-projects {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+.page-contact {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+.page-starwars {
   background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
   background-color: #000000;
   margin: 0;
@@ -41,6 +70,10 @@ body {
   top: 0px;
   margin: 0px;
   font-size: 1.75em;
+}
+.infobox {
+  background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
+  background: rgba(54, 25, 25, .8);
 }
 #section-title {
 	color: white;
