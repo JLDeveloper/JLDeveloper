@@ -86,7 +86,12 @@
   background: rgba(54, 25, 25, .8);
 }
 #profile-pic {
-    float: left;
+    width: 320px;
+    height: 356.6px%;
+}
+.body-text {
+    color: white;
+    font-weight: normal;
 }
 #section-title {
 	color: white;
