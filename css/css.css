@@ -88,6 +88,8 @@
 #profile-pic {
     width: 320px;
     height: 356.6px%;
+    padding: 2px;
+    border: 2px solid white;
 }
 .body-text {
     color: white;
