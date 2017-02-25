@@ -10,7 +10,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
     <script src="../js/jquery.js"></script><!--jQuery-->
     <script src="../js/starwars-jquery.js"></script><!--jQuery-->
-
+    <script>
+    $(function(){
+      $("#header").load("https://jldeveloper.github.io/JLDeveloper/html/header.html");
+    });</script>
+    
 	<meta charset="UTF-8">
     <title class="title">
       Galactic Book Reviews
@@ -18,25 +22,9 @@
   </head>
   <body class="page-projects">
 
-<!--HEADER-->
-    <header id="header">
-      <div class="container">
-        <h1>Galactic Book Reviews</h1>
-        <nav id="nav">
-          <ul>
-            <li id="portfolio">
-              <a href="../index.html">Portfolio</a>
-            </li>
-            <li id="projects">
-              <a href="../html/reviews.html">Projects</a>
-            </li>
-            <li id="contact">
-              <a href="../html/contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div id="header">
+      <!--includes header.html-->
+    </div>
 
      <div class="content">
       <div class="container">
