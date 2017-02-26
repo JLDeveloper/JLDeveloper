@@ -91,9 +91,17 @@
     padding: 2px;
     border: 2px solid white;
 }
-.body-text {
-    color: white;
+.basic-info {
     font-weight: normal;
+    padding: 15px;
+}
+.basicinfo-text {
+  padding: 15px;
+  color: white;
+}
+.basicinfo-bold {
+  font-weight: bold;
+  font-size: 30px;
 }
 #section-title {
 	color: white;
