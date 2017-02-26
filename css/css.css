@@ -102,8 +102,8 @@
     height: 285.28px;
 }
 #tamu-pic {
-  width: 237.5px;
-  height: 201.625px;
+  width: 257.5px;
+  height: 221.625px;
 }
 .infobox img {
   padding: 0px;
@@ -113,9 +113,14 @@
 #degree {
   font-size: 20px;
 }
-.basic-info {
+.basic-info { /*center this to browser*/
     font-weight: normal;
     padding: 5px;
+    /*margin: 0 auto;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .basicinfo-text { /*need to research column-gap*/
   padding: 30px;
@@ -141,10 +146,9 @@
   font-family: helvetica, sans-serif;
 }
 .content {
-  position: relative;
   padding-top: 80px;
 }
-.content p {
+.content p { /*for back-to-top button*/
   margin-bottom: 10px;
 }
 .back-button {
