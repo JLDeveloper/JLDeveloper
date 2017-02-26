@@ -10,6 +10,13 @@ $(function(){ // DOM ready
 
 });
 
+$(document).ready(function(){
+    $("#hide").click(function(){
+    });
+    $("#show").click(function(){
+    });
+});
+
 /* For scrolling to a div on screen
 $("#nav_about_me").click(function() {
     $('html,body').animate({
