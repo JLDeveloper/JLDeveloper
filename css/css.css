@@ -85,6 +85,11 @@
   background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
   background: rgba(54, 25, 25, .8);
 }
+.infobox p {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
 #profile-pic {
     width: 320px;
     height: 356.6px%;
@@ -97,7 +102,6 @@
 }
 .basicinfo-text {
   padding: 15px;
-  color: white;
 }
 .basicinfo-bold {
   font-weight: bold;
