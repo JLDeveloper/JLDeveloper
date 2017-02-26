@@ -91,6 +91,12 @@
   text-align: center;
   margin: 0 auto;
 }
+.infobox table {
+  margin: 0 auto;
+  -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 80px; /* Firefox */
+  column-gap: 80px;
+}
 #profile-pic {
     width: 320px;
     height: 356.6px;
@@ -110,12 +116,12 @@
     font-weight: normal;
     padding: 5px;
 }
-.basicinfo-text {
-  padding: 15px;
+.basicinfo-text { /*need to remove padding and set column-gap*/
+  padding: 30px;
 }
 .basicinfo-bold {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
 }
 #section-title {
 	color: white;
