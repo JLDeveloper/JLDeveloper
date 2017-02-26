@@ -98,16 +98,17 @@
   column-gap: 80px;
 }
 #profile-pic {
-    width: 320px;
-    height: 356.6px;
-    padding: 2px;
-    border: 2px solid white;
+    width: 256px;
+    height: 285.28px;
 }
 #tamu-pic {
-  width: 320px;
-  height: 356.6px%;
-  padding: 2px;
-  border: 2px solid black;
+  width: 237.5px;
+  height: 201.625px;
+}
+.infobox img {
+  padding: 0px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 #degree {
   font-size: 20px;
@@ -116,7 +117,7 @@
     font-weight: normal;
     padding: 5px;
 }
-.basicinfo-text { /*need to remove padding and set column-gap*/
+.basicinfo-text { /*need to research column-gap*/
   padding: 30px;
 }
 .basicinfo-bold {
