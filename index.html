@@ -14,6 +14,22 @@
     $(function(){
       $("#header").load("https://jldeveloper.github.io/JLDeveloper/html/header.html");
     });</script>
+<!--
+<script>
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#education").hide();
+            $("#skills").hide();
+        });
+        $("#show").click(function(){
+            $("#education").show();
+            $("#skills").show();
+        });
+    });
+  </script>
+
+-->
+
 <!--tooltip
     <script>
     $( function() {
@@ -39,7 +55,7 @@
 <button id="hide">Hide</button>
 <button id="show">Show</button>
 
-<div class="infobox" class="basic-info">
+<div class="infobox" id="basic-info">
   <br>
     <hr> <!--Paragraph-Level Thematic Break-->
   	<p id="section-title">Basic Info</p>
@@ -59,7 +75,7 @@
 <br><br><br>
 
 <!--EDUCATION-->
-<div class="infobox" class="education">
+<div class="infobox" id="education">
   <br>
 			<hr> <!--Paragraph-Level Thematic Break-->
 			<p id="section-title">Education</p>
@@ -81,7 +97,7 @@
 <br><br><br>
 
 	<!--SKILLS-->
-<div class="infobox" class="skills";>
+<div class="infobox" id="skills";>
   <br>
 	<hr> <!--Paragraph-Level Thematic Break-->
 	<p id="section-title">Skills</p>

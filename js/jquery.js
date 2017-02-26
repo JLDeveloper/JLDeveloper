@@ -10,14 +10,17 @@ $(function(){ // DOM ready
 
 });
 
-$(document).ready(function(){
+$(function(){
     $("#hide").click(function(){
-        $("#profile-pic").hide();
+        $("#education").hide();
+        $("#skills").hide();
     });
     $("#show").click(function(){
-        $("#profile-pic").show();
+        $("#education").show();
+        $("#skills").show();
     });
 });
+
 
 /* For scrolling to a div on screen
 $("#nav_about_me").click(function() {

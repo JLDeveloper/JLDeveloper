@@ -113,7 +113,7 @@
 #degree {
   font-size: 20px;
 }
-.basic-info { /*center this to browser*/
+#basic-info { /*center this to browser*/
     font-weight: normal;
     padding: 5px;
     /*margin: 0 auto;*/
