@@ -12,8 +12,10 @@ $(function(){ // DOM ready
 
 $(document).ready(function(){
     $("#hide").click(function(){
+        $(".profile-pic").hide();
     });
     $("#show").click(function(){
+        $(".profile-pic").show();
     });
 });
 
