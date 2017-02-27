@@ -10,25 +10,6 @@ $(function(){ // DOM ready
 
 });
 
-$(function(){
-    $("#hide").click(function(){
-        $("#education").hide();
-        $("#skills").hide();
-    });
-    $("#show").click(function(){
-        $("#education").show();
-        $("#skills").show();
-    });
-});
-
-$(function () {
-    $("#right-arrow").toggle(function () {
-        $(this).parent().parent().animate({left:'0px'}, {queue: false, duration: 500});
-    }, function () {
-        $(this).parent().parent().animate({left:'-280px'}, {queue: false, duration: 500});
-    });
-});
-
 /*
     <script>
     $( function() {

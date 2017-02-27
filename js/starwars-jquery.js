@@ -7,3 +7,18 @@ $(function(){ // DOM ready
     });
 
 });
+
+
+/*
+Hide and Show Buttons
+$(function(){
+    $("#hide").click(function(){
+        $("#education").hide();
+        $("#skills").hide();
+    });
+    $("#show").click(function(){
+        $("#education").show();
+        $("#skills").show();
+    });
+});
+*/
