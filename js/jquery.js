@@ -21,9 +21,11 @@ $(function(){
     });
 });
 
-/* For scrolling to a div on screen
-$("#nav_about_me").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".about_me").offset().top},
-        'slow');
-});*/
+/*
+    <script>
+    $( function() {
+      $( document ).tooltip();
+    } );
+    </script>
+    -->
+    */
