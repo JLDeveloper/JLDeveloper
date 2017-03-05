@@ -1,3 +1,5 @@
+@import "header.css";
+/***************PORTFOLIO PAGE***************/
 .page-portfolio {
   background-image: url("https://jldeveloper.github.io/JLDeveloper/images/portfolio/background-image.jpg");
   background-size: 100% 100%;
@@ -9,47 +11,11 @@
   vertical-align: baseline;
   font-weight: bold;
 }
-.page-projects {
-  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
-  background-color: #000000;
-  margin: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  font-weight: bold;
-}
-.page-contact {
-  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
-  background-color: #000000;
-  margin: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  font-weight: bold;
-}
-.page-starwars {
-  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
-  background-color: #000000;
-  margin: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  font-weight: bold;
-}
-.page-mistborn {
-  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
-  background-color: #000000;
-  margin: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  font-weight: bold;
-}
 .infobox {
   background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
   background: rgba(54, 75, 95, .9);
+  border: 5px solid black; /*width-style-color*/
   border-radius: 25px;
-  border: 5px solid black;
   position: relative;
 }
 .infobox p {
@@ -123,6 +89,7 @@
 	right: 20px;
 	/*text-indent: -9999px;*/
 }
+/***************COMING SOON***************/
 #coming-soon {
   text-align: center;
   font-weight: bold;
@@ -138,3 +105,43 @@
 	bottom: 20px;
 	right: 20px;
 }*/
+/***************PROJECTS PAGE***************/
+.page-projects {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+/***************CONTACT PAGE***************/
+.page-contact {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+/***************STAR WARS PAGE***************/
+.page-starwars {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
+/***************MISTBORN***************/
+.page-mistborn {
+  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
+  background-color: #000000;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-weight: bold;
+}
