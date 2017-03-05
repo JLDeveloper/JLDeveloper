@@ -45,78 +45,49 @@
   vertical-align: baseline;
   font-weight: bold;
 }
-#nav {
-  position: absolute;
-  right: 0;
-  top: -15px;
-  height: 60px;
-  text-transform: uppercase;
-}
-#nav ul li {
-  float: left;
-  list-style: none;
-}
-#nav ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 0 10px;
-}
-#header {
-  z-index: 2;
-  position: fixed;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background: #222;
-  color: white;
-}
-#header img {
-  width: 180px;
-  height: 60px;
-}
-#header h1 {
-  top: 0px;
-  margin: 0px;
-  font-size: 1.75em;
-}
 .infobox {
   background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
   background: rgba(54, 75, 95, .9);
   border-radius: 25px;
   border: 5px solid black;
+  position: relative;
 }
 .infobox p {
   color: white;
-  text-align: center;
   margin: 0 auto;
+  border-color: black;
 }
 .infobox table {
   margin: 0 auto;
-  -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 80px; /* Firefox */
-  column-gap: 80px;
 }
-.infobox img {
-  padding: 0px;
-  border: 5px solid black;
-  border-radius: 10px;
+.logo {
+  padding: 10px;
+  border: 0;
+  position: relative;
+  top: 80px;
+  left: -250px;
 }
-
 .basicinfo-text { /*need to research column-gap*/
   padding: 30px;
 }
-.basicinfo-bold {
-  font-weight: bold;
+.basicinfo-answers {
   font-size: 28px;
+}
+.infobox #skills {
+  /*needs to be formatted to fit content*/
 }
 #profile-pic {
     width: 256px;
     height: 285.28px;
+    border-style: outset;
+    border-radius: 10px;
 }
 #tamu-pic {
   width: 257.5px;
   height: 221.625px;
+  padding: 0px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 #degree {
   font-size: 20px;
