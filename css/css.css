@@ -68,11 +68,7 @@
   padding: 10px;
   border: 0;
   position: relative;
-  top: 80px;
   left: -250px;
-}
-.infobox #skills {
-  /*needs to be formatted to fit content*/
 }
 #profile-pic {
     width: 256px;
