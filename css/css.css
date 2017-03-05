@@ -1,4 +1,6 @@
 @import "header.css";
+@import "responsive.css";
+@import "mobile.css";
 /***************PORTFOLIO PAGE***************/
 .page-portfolio {
   background-image: url("https://jldeveloper.github.io/JLDeveloper/images/portfolio/background-image.jpg");
