@@ -41,19 +41,20 @@
   border: 5px solid black; /*width-style-color*/
   border-radius: 25px;
   position: relative;
+  overflow: auto;
 }
 .infobox p {
   margin: 0 auto;
   border-color: black;
   font-family: "Comic Sans MS", cursive, sans-serif;
-
 }
 .infobox table {
   margin: 0 auto;
   /* -----top--right--bottom--left*/
   padding: 10px 0 10px 0;
 }
-.infobox td {
+.basic-info {
+  /* -----top--right--bottom--left*/
   padding: 0px 50px 0px 50px;
 }
 .basicinfo-smalltext { /*need to research column-gap*/
@@ -68,18 +69,16 @@
   padding: 10px;
   border: 0;
   position: relative;
-  left: -250px;
 }
 #profile-pic {
     width: 256px;
     height: 285.28px;
-    border-style: outset;
+    border: 5px solid black;
     border-radius: 10px;
 }
 #tamu-pic {
   width: 257.5px;
   height: 221.625px;
-  padding: 0px;
   border: 5px solid black;
   border-radius: 10px;
 }
