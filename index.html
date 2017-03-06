@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/jquery.gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
     <script src="js/portfolio.js"></script><!--jQuery-->
+
   <!--header-->
     <script>
     $(function(){
@@ -27,12 +28,12 @@
 <div class="content">
 <div class="container">
 
-<div class="infobox" class="basic-info">
+<div class="infobox">
   <br>
     <hr> <!--Paragraph-Level Thematic Break-->
   	<p id="section-title">Basic Info</p>
   	<hr> <!--Paragraph-Level Thematic Break-->
-    <table>
+    <table class="basicinfo-table">
       <tr>
         <td><img id="profile-pic" src="https://jldeveloper.github.io/JLDeveloper/images/portfolio/profile-pic.png" alt="profile pic";></img>
         </td>
@@ -46,9 +47,9 @@
       <tr>
         <td class="basicinfo-smalltext">
           <p>College:<p>
-          <p class="basicinfo-bigtext"> Texas A&M University<p>
+          <p class="basicinfo-bigtext"> Texas A&M University</p>
           <p>Degree:<p>
-          <p class="basicinfo-bigtext"> Bachelor of Science<p>
+          <p class="basicinfo-bigtext"> Bachelor of Science</p>
             <p class="basicinfo-bigtext">Electronics Engineering Technology</p><br>
             <p><i>Acquired: May 2014</i></p>
         </td>
@@ -61,23 +62,31 @@
 <br><br><br>
 
 	<!--SKILLS-->
-<div class="infobox">
+<div class="infobox" class="skilltable">
   <br>
 	<hr> <!--Paragraph-Level Thematic Break-->
 	<p id="section-title">Skills</p>
 	<hr> <!--Paragraph-Level Thematic Break-->
-	<table>
+	<table id="skilltable-left">
+        <tr>
+          <td align="center" valign="center">
+            <p class="table-title"><u>IDE's and Applications</u></p>
+          </td>
+        </tr>
+
 				<tr>
 				<td align="center" valign="center">
-				<figure class="logo" id="html5-logo">
-					<a href="#"><img src="images/portfolio/logo-html5.png" alt="HTML5 Logo"; title="We ask for your age only for statistical purposes."></a>
-					</figure>
+				<figure class="skill" id="icon-github">
+					<a href=""><img src="images/portfolio/icon-github.png" alt="GitHub"></a>
+          </figure>
 				<!--Caption space-->
 				</td>
+        </tr>
 
+        <tr>
 				<td align="center" valign="center">
-				<figure class="logo" id="css3-logo">
-					<a href="#"><img src="images/portfolio/logo-css3.png" alt="CSS3 Logo"></a>
+				<figure class="skill" id="icon-atom">
+					<a href="#"><img src="images/portfolio/icon-atom.png" alt="Atom"></a>
 					</figure>
 				<!--Caption space-->
 				</td>
@@ -85,8 +94,87 @@
 
 				<tr>
 				<td align="center" valign="center">
-				<figure class="logo" id="jquery-logo">
-					<a href="#"><img src="images/portfolio/logo-jquery.png" alt="jQuery Logo"></a>
+				<figure class="skill" id="icon-eclipse">
+					<a href="#"><img src="images/portfolio/icon-eclipse.png" alt="ECLIPSE"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-wordpress">
+					<a href="#"><img src="images/portfolio/icon-wordpress.png" alt="Wordpress"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+		</table>
+<table id="skilltable-right">
+        <tr>
+          <td align="center" valign="center">
+            <p class="table-title"><u>Markup/Programming Languages</u></p>
+          </td>
+        </tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-html5">
+					<a href="#"><img src="images/portfolio/icon-html5.png" alt="HTML5"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-css3">
+					<a href="#"><img src="images/portfolio/icon-css3.png" alt="CSS3"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-jquery">
+					<a href="#"><img src="images/portfolio/icon-jquery.png" alt="JQUERY"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-c">
+					<a href="#"><img src="images/portfolio/icon-c.png" alt="C"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-c++">
+					<a href="#"><img src="images/portfolio/icon-c++.png" alt="C++"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-python">
+					<a href="#"><img src="images/portfolio/icon-python.png" alt="Python"></a>
+					</figure>
+				<!--Caption space-->
+				</td>
+				</tr>
+
+        <tr>
+				<td align="center" valign="center">
+				<figure class="skill" id="icon-android">
+					<a href="#"><img src="images/portfolio/icon-android.png" alt="Android Development"></a>
 					</figure>
 				<!--Caption space-->
 				</td>
@@ -94,7 +182,7 @@
 			</table>
 </div>
 
-    <div class="back-button">
+    <div class="back-button" style="display: none;">
      <p><a href="#TOP">Back to Top</a><p>
     </div>
 
