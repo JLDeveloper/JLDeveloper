@@ -56,21 +56,27 @@
 .skilltable {
 margin: clear;
 }
+/*THIS MAKES THE SKILLS TABLES ALIGN LEFT AND RIGHT
 #skilltable-left {
-  float: left;
   display: inline-block;
 }
 #skilltable-right {
-  float: right;
   display: inline-block;
 }
-table td {
-    min-width: 300px;
-}
+*/
 .table-title {
   font-size: 25px;
   font-weight: bold;
   color: white;
+}
+.work-bigtext {
+  font-size: 20px;
+  font-weight: bold;
+  color: gold;
+}
+.worktable {
+  color: white;
+  padding: 20px;
 }
 .basic-info {
   /* -----top--right--bottom--left*/
