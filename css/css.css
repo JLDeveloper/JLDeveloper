@@ -24,6 +24,10 @@
 	right: 20px;
 	/*text-indent: -9999px;*/
 }
+.centered-content {
+  display: inline-block;
+  vertical-align: top;
+}
 /***************PORTFOLIO PAGE***************/
 .page-portfolio {
   background-image: url("https://jldeveloper.github.io/JLDeveloper/images/portfolio/background-image.jpg");
@@ -37,8 +41,8 @@
   color: white;
 }
 .infobox {
-  background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
-  background: rgba(54, 75, 95, .9);
+  background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
+  background: rgba(54,75, 95, .9);
   border: 5px solid black; /*width-style-color*/
   border-radius: 25px;
   position: relative;
@@ -90,12 +94,6 @@
  #work-descriptions {
    margin: 30px;
  }
- #infobox-basicinfo {
- }
- #infobox-skills {
- }
- #infobox-workhistory {
- }
 /***************COMING SOON***************/
 #coming-soon {
   text-align: center;
@@ -135,13 +133,46 @@
 }
 /***************STAR WARS PAGE***************/
 .page-starwars {
-  background-image: url("https://jldeveloper.github.io/JLDeveloper/images/starwars/star-background.jpg");
-  background-color: #000000;
+  background: rgb(153, 153, 153);
   margin: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline;
   font-weight: bold;
+}
+#starwars-bookbox {
+  background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
+  background: rgba(54,75, 95, .9);
+  border: 5px solid black; /*width-style-color*/
+  text-align: center;
+}
+#starwars-header {
+ background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
+ background: rgba(54,75, 95, .9);
+ border: 5px solid black; /*width-style-color*/
+ text-align: center;
+}
+#legends-title{
+     display: inline-block;
+     color: white;
+     background-color: green;
+     text-align: center;
+     width: calc(50% - 1px);// calculate your width 50% minus the border pixels
+}
+#canon-title {
+     display: inline-block;
+     color: white;
+     background-color: red;
+     text-align: center;
+     float: right;
+     width: calc(50% - 1px); // calculate your width 50% minus the border pixels
+}
+#starwars-vline {
+  width: 40px;
+  height: 1000px;
+  background-color: #00004d;
+  border: 5px solid black; /*width-style-color*/
+  margin-top: 150px;
 }
 /***************MISTBORN***************/
 .page-mistborn {
