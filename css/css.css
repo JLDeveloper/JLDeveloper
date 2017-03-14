@@ -94,7 +94,7 @@
 	font-family: Georgia, serif;
 	font-size: 30px;
 	font-weight: bold;
-	position: relative;
+  text-align: center;
 }
  #work-descriptions {
    margin: 30px;
