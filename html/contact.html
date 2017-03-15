@@ -8,7 +8,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/jquery.gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/js/jquery.js"></script><!--jQuery-->
+    <script src="../js/portfolio.js"></script><!--jQuery-->
+    </script>
     <!--NAV BAR-->
     <script>
     $(function(){
@@ -26,26 +27,21 @@
 <div class="content">
 <div class="container">
 
-  <table align="center" border="0" cellpadding="5">
-    <tr>
-
-    <td align="center" valign="center">
-    <figure class="icon">
-      <a href="mailto:jonathan.lawrence215@gmail.com"><img src="file://C:\Users\Jonathan\Desktop\Code\Portfolio\Pictures\icon_email.png" alt="Email Icon"></a>
-      </figure>
-    <br />
-    <!--Caption space-->
-    </td>
-
-    <td align="center" valign="center">
-    <figure class="icon">
-      <a href="https://www.linkedin.com/in/jonathan-lawrence-5a684664"><img src="file://C:\Users\Jonathan\Desktop\Code\Portfolio\Pictures\icon_linkedin.png" alt="LinkedIn Icon"></a>
-      </figure>
-    <br />
-    <!--Caption space-->
-    </td>
-    </tr>
-  </table>
+<div class="icon">
+  <div>
+    <figure>
+      <a href="https://www.linkedin.com/in/jonathan-lawrence-5a684664"><img src="../images/portfolio/icon-linkedin.png" alt="LinkedIn Icon"></a>
+    </figure>
+    <p style="text-align:center">LinkedIn</p>
+  </div>
+  <div>
+    <figure id="emailicon">
+      <a href="mailto:jonathan.lawrence215@gmail.com"><img src="../images/portfolio/icon-email.png" alt="Email Icon"></a>
+    </figure>
+    <p style="text-align:center">Email</p>
+    <p style="text-align:center"><span id="email">Click to reveal</span></p>
+  </div>
+</div> <!--End of Icon-->
 
 </div> <!--End Container-->
 </div> <!--End Content-->
