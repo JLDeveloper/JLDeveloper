@@ -2,6 +2,7 @@
 a:link {
     color: blue;
 }
+
 /* mouse over link - Nav*/
 #nav a:hover {
     color: black;
@@ -11,12 +12,8 @@ a:link {
 .back a:hover {
     color: blue;
 }
+
 /* selected link */
 a:active {
     color: blue;
-}
-
-.inactivelink {
-   pointer-events: none;
-   cursor: default;
 }
