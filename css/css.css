@@ -39,6 +39,7 @@
   border: 0;
   vertical-align: baseline;
   color: white;
+  padding-bottom: 50px;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
