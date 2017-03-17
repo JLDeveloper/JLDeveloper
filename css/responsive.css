@@ -17,7 +17,7 @@ a:link {
 a:active {
     color: blue;
 }
-.inactiveLink {
-   pointer-events: none;
+/*Inactive Link*/
+.inactivelink {
    cursor: default;
 }
