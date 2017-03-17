@@ -51,6 +51,3 @@ ul ul {
 li:hover > ul {
   display: block;
 }
-#projects ul li {
-  width:150px;
-}
