@@ -40,8 +40,6 @@ ul ul {
   position: absolute;
   background: #222;
   padding: 0;
-  width: auto;
-  white-space: nowrap;
 }
 
 #nav ul ul li {
