@@ -6,16 +6,6 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-#nav ul li {
-  float: left;
-  list-style: none;
-}
-#nav ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 0 10px;
-}
 #header {
   z-index: 2;
   position: fixed;
@@ -34,13 +24,24 @@
   margin: 0px;
   font-size: 1.75em;
 }
-
+#nav ul li {
+  float: left;
+  list-style: none;
+}
+#nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
 /*Nav Dropdown*/
 ul ul {
   display: none;
   position: absolute;
   background: #222;
   padding: 0;
+  width: 100%;
+  white-space: nowrap;
 }
 
 #nav ul ul li {
@@ -49,4 +50,7 @@ ul ul {
 
 li:hover > ul {
   display: block;
+}
+#projects ul li {
+  width:150px;
 }
