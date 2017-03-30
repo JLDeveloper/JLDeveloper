@@ -41,6 +41,14 @@
   color: white;
   padding-bottom: 300px;
 }
+/*Left hand navigation*/
+#menu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+}
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
   background: rgba(54,75, 95, .9);
