@@ -45,8 +45,7 @@
 #leftnav {
   position: fixed;
   left: 0;
-  top: 20%;
-
+  top: 15%;
   border: 3px solid black;
   background: rgb(83, 145, 77); /*Browser fall-back*/
   background: rgb(83, 145, 77, 0.5);
