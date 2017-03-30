@@ -56,7 +56,8 @@
 #menu a {
   font-weight: bold;
   color: white;
-  text-decoration:  none;
+  text-decoration: none;
+  margin: 5px;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
