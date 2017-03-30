@@ -48,14 +48,16 @@
   top: 50%;
   width: 8em;
   margin-top: -2.5em;
-  border: 5px solid black;
-  background: rgb(77, 196, 64); /*Browser fall-back*/
-  background: rgb(77, 196, 64, 0.5);
 }
 #menu a {
   font-weight: bold;
   color: white;
   text-decoration:  none;
+}
+#leftnav {
+  border: 5px solid black;
+  background: rgb(77, 196, 64); /*Browser fall-back*/
+  background: rgb(77, 196, 64, 0.5);
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
