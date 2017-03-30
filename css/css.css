@@ -54,13 +54,13 @@
   overflow: auto;
 }
 #leftcont {
+  padding: 5px;
+}
+#leftcont a {
   font-weight: bold;
   color: white;
   text-decoration: none;
-  padding: 0;
-}
-#leftnavcont {
-    padding: 5px;
+  padding: 0px;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
