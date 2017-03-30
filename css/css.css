@@ -43,11 +43,7 @@
 }
 /*Left hand navigation*/
 #menu {
-  position: fixed;
-  left: 0;
-  top: 50%;
-  width: 8em;
-  margin-top: -2.5em;
+
 }
 #menu a {
   font-weight: bold;
@@ -55,6 +51,11 @@
   text-decoration:  none;
 }
 #leftnav {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
   border: 5px solid black;
   background: rgb(77, 196, 64); /*Browser fall-back*/
   background: rgb(77, 196, 64, 0.5);
