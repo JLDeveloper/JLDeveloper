@@ -46,10 +46,12 @@
   position: fixed;
   left: 0;
   top: 15%;
-  border: 3px solid black;
-  background: rgb(83, 145, 77); /*Browser fall-back*/
-  background: rgb(83, 145, 77, 0.5);
   z-index: 100;
+  background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
+  background: rgb(54, 75, 95, .9);
+  border: 5px solid black; /*width-style-color*/
+  border-radius: 25px;
+  overflow: auto;
 }
 #menu a {
   font-weight: bold;
