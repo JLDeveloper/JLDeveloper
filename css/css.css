@@ -42,11 +42,6 @@
   padding-bottom: 300px;
 }
 /*Left hand navigation*/
-#menu a {
-  font-weight: bold;
-  color: white;
-  text-decoration:  none;
-}
 #leftnav {
   position: fixed;
   left: 0;
@@ -55,6 +50,12 @@
   border: 3px solid black;
   background: rgb(83, 145, 77); /*Browser fall-back*/
   background: rgb(83, 145, 77, 0.5);
+  z-index: 100;
+}
+#menu a {
+  font-weight: bold;
+  color: white;
+  text-decoration:  none;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
