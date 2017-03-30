@@ -57,7 +57,10 @@
   font-weight: bold;
   color: white;
   text-decoration: none;
-  margin: 5px;
+  padding: 5px;
+}
+#menu ul {
+    padding: 0;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
