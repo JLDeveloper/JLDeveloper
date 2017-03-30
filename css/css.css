@@ -57,7 +57,10 @@
   font-weight: bold;
   color: white;
   text-decoration: none;
-  padding: 5px;
+  padding: 0;
+}
+#leftnavcont {
+    padding: 5px;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
