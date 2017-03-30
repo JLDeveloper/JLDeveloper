@@ -50,12 +50,12 @@
 #leftnav {
   position: fixed;
   left: 0;
-  top: 50%;
+  top: 10%;
   width: 8em;
   margin-top: -2.5em;
-  border: 5px solid black;
-  background: rgb(77, 196, 64); /*Browser fall-back*/
-  background: rgb(77, 196, 64, 0.5);
+  border: 3px solid black;
+  background: rgb(83, 145, 77); /*Browser fall-back*/
+  background: rgb(83, 145, 77, 0.5);
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
