@@ -21,6 +21,6 @@ a:active {
 .inactivelink {
    cursor: default;
 }
-#menu a:hover {
+#leftnav a:hover {
     color: gold;
 }
