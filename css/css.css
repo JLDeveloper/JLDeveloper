@@ -48,6 +48,8 @@
   top: 50%;
   width: 8em;
   margin-top: -2.5em;
+  font-weight: bold;
+  color: white;
 }
 .infobox {
   background: rgb(54, 75, 95); /* Fall-back for browsers that don't support rgba */
