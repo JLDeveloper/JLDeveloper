@@ -48,6 +48,8 @@
   top: 50%;
   width: 8em;
   margin-top: -2.5em;
+}
+#menu a {
   font-weight: bold;
   color: white;
   text-decoration:  none;
