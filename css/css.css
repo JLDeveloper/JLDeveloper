@@ -53,7 +53,7 @@
   border-radius: 25px;
   overflow: auto;
 }
-#leftnav a #leftnav p {
+#leftcont {
   font-weight: bold;
   color: white;
   text-decoration: none;
