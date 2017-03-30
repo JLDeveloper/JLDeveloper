@@ -21,3 +21,6 @@ a:active {
 .inactivelink {
    cursor: default;
 }
+#menu a:hover {
+    color: blue;
+}
